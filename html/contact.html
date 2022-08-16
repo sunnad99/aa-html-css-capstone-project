@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="../css/layout.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="resources.html">Resources</a>
+            <a href="games.html">Games</a>
+        </nav>
+
+        <!-- Page Section -->
+        <div class="page">
+            <form action="">
+                <fieldset>
+                    <!-- firstName -->
+                    <div class="inline-content">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+                    <!-- lastName -->
+                    <div class="inline-content">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_address" class="email-and-boxarea-input">
+                    </div>
+
+                    <!-- Feedback -->
+                    <div>
+                        <label for="feedback">Feedback</label>
+                        <textarea name="feedback_text" id="feedback" class="email-and-boxarea-input"></textarea>
+                    </div>
+
+                    <!-- Newsletter tick -->
+                    <div>
+                        <input type="checkbox" id="subscription" name="newsletter_checkbox" class="inline-content">
+                        <label for="subscription" class="inline-content">Subscribe for newsletter</label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+
+        </div>
+    </body>
+</html>
